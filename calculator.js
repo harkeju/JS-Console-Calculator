@@ -4,17 +4,19 @@ let operator = prompt("Choose an operator eg: + - * / % **: ");
 let num2 = parseInt(prompt("Enter a second number"));
 
 if (operator == "+") {
-  console.log(num1 + num2);
+  alert(`The answer is ${num1 + num2}`);
 } else if (operator == "-") {
-  console.log(num1 - num2);
+  alert(`The answer is ${num1 - num2}`);
 } else if (operator == "*") {
-  console.log(num1 * num2);
+  alert(`The answer is ${num1 * num2}`);
 } else if (operator == "/") {
-  console.log(num1 / num2);
+  alert(`The answer is ${num1 / num2}`);
 } else if (operator == "%") {
-  console.log(num1 % num2);
+  alert(`The answer is ${num1 % num2}`);
 } else if (operator == "**") {
-  console.log(num1 ** num2);
+  alert(`The answer is ${num1 ** num2}`);
 } else {
-  console.log("You've entered an invalid number or operator!");
+  alert(
+    "You've entered an invalid number or operator! Refresh this page to restart"
+  );
 }
